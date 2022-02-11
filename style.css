@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+#btn{
+    align-items: center;
+    justify-content: center;
+}

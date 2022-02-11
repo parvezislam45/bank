@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h3 class="text-2xl mb-4 text-center">Well Come To Your Account Details</h3>
+    </header>
+    <main class="w-3/4 mx-auto">
+        <section class="mt-8">
+            <div class="grid grid-cols-3 gap-4 text-white">
+                <div class="bg-blue-400 p-8 rounded">
+                    <h3 class="text-2xl">Deposit</h3>
+                    <h4 class="text-4xl">$<span id="deposit-Tk">00</span></h4>
+                </div>
+                <div class="bg-emerald-400 p-8 rounded">
+                    <h3 class="text-2xl">Withdrow</h3>
+                    <h4 class="text-4xl">$<span id="withdrow-Tk">00</span></h4>
+                </div>
+                <div class="bg-blue-400 p-8 rounded">
+                    <h3 class="text-2xl">Balance</h3>
+                    <h4 class="text-4xl">$<span id="balance-Tk">1000</span></h4>
+                </div>
+            </div>
+        </section>
+        <section class="mt-8">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-red-100 p-8 rounded">
+                    <h3 class="text-2xl">Please Deposit</h3>
+                    <div>
+                        <input id="deposit-amount" class="border block border-gray-400 rounded w-3/4 mb-4 px-2" type="text" placeholder="">
+                        <button id="deposit-btn" class="bg-lime-300 px-4 rounded py-2 text-black font-medium bold">Deposit</button>
+                    </div>
+                </div>
+                <div class="bg-orange-400 p-8 rounded">
+                    <h3 class="text-2xl">Please Withdrow</h3>
+                    <div>
+                        <input id="withdrow-amount" class="border block border-gray-400 rounded w-3/4 mb-4 px-2" type="text" placeholder="">
+                        <button id="withdrow-btn" class="bg-emerald-500 px-4 rounded py-2 text-black font-medium bold">Withdrow</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="page-2.js"></script>
+</body>
+</html>
